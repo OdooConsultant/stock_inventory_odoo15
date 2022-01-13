@@ -1,0 +1,791 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_inventory
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-04 09:25+0000\n"
+"PO-Revision-Date: 2022-01-04 09:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_inventory
+#: model:ir.actions.report,print_report_name:stock_inventory.action_report_inventory
+msgid "'Inventory - %s' % (object.name)"
+msgstr "'Inventaire - %s' % (object.name)"
+
+#. module: stock_inventory
+#: model:ir.actions.report,print_report_name:stock_inventory.action_report_inventory_valorisation
+msgid "'Inventory valorisation - %s' % (object.name)"
+msgstr "'Valorisation de l inventaire - %s' % (object.name)"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Counted Quantity</strong>"
+msgstr "<strong>Quantité comptée</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Date:</strong>"
+msgstr "<strong>Date:</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Difference</strong>"
+msgstr "<strong>Différence</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Location</strong>"
+msgstr "<strong>Emplacements</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Lot/Serial Number</strong>"
+msgstr "<strong>Lot/Numéro de série</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>On Hand Quantity</strong>"
+msgstr "<strong>Quantité en main</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Package</strong>"
+msgstr "<strong>Paquet</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Produit</strong>"
+msgstr "<strong>Produit</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Total</strong>"
+msgstr "<strong>Total</strong>"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Prix unitaire</strong>"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_needaction
+msgid "Action Needed"
+msgstr "Nécessite une action"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activité d'exception de décoration"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_state
+msgid "Activity State"
+msgstr "État de l'Activité"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icône de type d'activité"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__prefill_counted_quantity
+msgid ""
+"Allows to start with a pre-filled counted quantity for each lines or with "
+"all counted quantities set to zero."
+msgstr ""
+"Permet de commencer avec la quantité comptée pré-remplie pour chaque ligne, "
+"ou avec la quantité comptée à zéro pour chaque ligne."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__start_empty
+msgid "Allows to start with an empty inventory."
+msgstr "Autorise de commencer avec un inventaire vide."
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre de pièces jointes"
+
+#. module: stock_inventory
+#: model_terms:ir.actions.act_window,help:stock_inventory.action_inventory_form
+msgid ""
+"Barcode scanner can be activated via inventory settings.\n"
+"            Manual inventory adjustments can also be performed and pre-filled with\n"
+"            suggested counted quantity."
+msgstr ""
+"Le scanner de codes-barres peut être activé dans la configuration d'inventaire.\n"
+"            Des ajustements d'inventaire manuels peuvent aussi être effectués et pré-remplis \n"
+"            avec les quantités comptées suggerées."
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Cancel Inventory"
+msgstr "Annuler l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__cancel
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__categ_ids
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__filter_by__2
+msgid "Catégories"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__company_id
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Continue Inventory"
+msgstr "Continuer l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.actions.report,name:stock_inventory.action_report_inventory
+msgid "Count Sheet"
+msgstr "Feuille de comptage"
+
+#. module: stock_inventory
+#: model:ir.actions.report,name:stock_inventory.action_report_inventory_valorisation
+msgid "Count Sheet valorisation"
+msgstr "Raport de valorisation d'inventaire"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "Counted"
+msgstr "Compté"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__prefill_counted_quantity
+msgid "Counted Quantities"
+msgstr "Quantités Comptées"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__product_qty
+msgid "Counted Quantity"
+msgstr "Quantités Comptés"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__move_ids
+msgid "Created Moves"
+msgstr "Mouvements créés"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__create_uid
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__create_date
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__prefill_counted_quantity__counted
+msgid "Default to stock on hand"
+msgstr "Quantité en stock par défaut"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__prefill_counted_quantity__zero
+msgid "Default to zero"
+msgstr "Zéro par défaut"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__difference_qty
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__total_difference
+msgid "Difference"
+msgstr "Différence"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Difference different than zero"
+msgstr "Différence différente de zéro"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__display_name
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__draft
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__start_empty
+msgid "Empty Inventory"
+msgstr "Inventaire vide"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__product_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Assure la tracabilité d'un article stockable dans votre entrepôt"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__filter_by
+msgid "Filtrer par"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icône Font Awesome e.g. fa-tasks"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Group By"
+msgstr "Regrouper par"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Group by..."
+msgstr "Regrouper par..."
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__has_message
+msgid "Has Message"
+msgstr "A un message"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__id
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_exception_icon
+msgid "Icon"
+msgstr "Icone"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité d'exception."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si actif, certains messages ont une erreur de livraison."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__date
+msgid ""
+"If the inventory adjustment is not validated, date at which the theoritical quantities have been checked.\n"
+"If the inventory adjustment is validated, date at which the inventory adjustment has been validated."
+msgstr ""
+"Si l'ajustement d'inventaire n'est pas validé, date à laquelle les quantités théoriques ont été vérifiées. \n"
+"Si l'ajustement d'inventaire est validé, date à laquelle l'ajustement d'inventaire a été validé. "
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid ""
+"If you cancel this inventory adjustment, all its inventory adjustment lines "
+"will be lost. Are you sure you want to discard it ?"
+msgstr ""
+"Si vous annulez cet ajustement d'inventaire, toutes ses lignes d'ajustement "
+"seront perdues. Etes-vous certain de vouloir l'annuler?"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__confirm
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "In Progress"
+msgstr "En cours"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__unit_price
+msgid ""
+"In Standard Price & AVCO: value of the product (automatically computed in AVCO).\n"
+"        In FIFO: value of the last unit that left the stock (automatically computed).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__exhausted
+msgid "Include Exhausted Products"
+msgstr "Inclure les articles épuisés"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__exhausted
+msgid "Include also products with quantity of 0"
+msgstr "Inclure aussi les les articles avec une quantité de 0"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__difference_qty
+msgid ""
+"Indicates the gap between the product's theoretical quantity and its newest "
+"quantity."
+msgstr ""
+"Indique la différence entre la quantité théorique de l'article et sa "
+"nouvelle quantité."
+
+#. module: stock_inventory
+#: model:ir.ui.menu,name:stock_inventory.menu_action_inventory_form_inherit
+msgid "Inventaire"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__line_ids
+msgid "Inventories"
+msgstr "Inventaires"
+
+#. module: stock_inventory
+#: model:ir.model,name:stock_inventory.model_stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__inventory_id
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_move__inventory_id
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Inventory"
+msgstr "Inventaire"
+
+#. module: stock_inventory
+#: model:ir.actions.act_window,name:stock_inventory.action_inventory_form
+msgid "Inventory Adjustments"
+msgstr "Ajustements de l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__date
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__inventory_date
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Inventory Date"
+msgstr "Date d'inventaire"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "Inventory Details"
+msgstr "Détails de l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model,name:stock_inventory.model_stock_inventory_line
+msgid "Inventory Line"
+msgstr "Ligne d'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__name
+msgid "Inventory Reference"
+msgstr "Référence de l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__is_editable
+msgid "Is Editable"
+msgstr "Est modifiable"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory____last_update
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_uid
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_date
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__inventory_date
+msgid "Last date at which the On Hand Quantity has been computed."
+msgstr "Dernière date à laquelle la quantité en stock a été calculée."
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__location_id
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Location"
+msgstr "Lieu"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__location_ids
+msgid "Locations"
+msgstr "Emplacements"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__prod_lot_id
+msgid "Lot/Serial Number"
+msgstr "Lot/numéro de série"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_tree
+msgid "Lot/Serial Number Inventory"
+msgstr "Inventaire des numéros de lot/série"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__marque_ids
+msgid "Marque"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__filter_by__3
+msgid "Marques"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_ids
+msgid "Messages"
+msgstr "Erreur d'envoi du message"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Échéance de mon activité"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Date limite de l'Activité à Venir"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_type_id
+msgid "Next Activity Type"
+msgstr "Résumé d'activité suivante"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages exigeant une action"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec des erreurs d'envoi"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "On Hand"
+msgstr "En stock"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Outdated Theoretical Quantities"
+msgstr "Quantités théoriques dépassées"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__partner_id
+msgid "Owner"
+msgstr "Propriétaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__package_id
+msgid "Pack"
+msgstr "Colis"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "Package"
+msgstr ""
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Packaging"
+msgstr "Colis"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Physical Inventories by Date"
+msgstr "Inventaire physique par date"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Print Count Sheet"
+msgstr "Imprimer la Feuille de Comptage"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Print Count Sheet valorisation"
+msgstr "Imprimer valorisation d'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__product_id
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Product"
+msgstr "Produit"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__categ_id
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Product Category"
+msgstr "Article"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Product Moves"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__product_uom_id
+msgid "Product Unit of Measure"
+msgstr "Mouvements de produits"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__product_ids
+msgid "Products"
+msgstr "Articles"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__filter_by__1
+msgid "Produits"
+msgstr ""
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__outdated
+msgid "Quantity outdated"
+msgstr "Quantité obselète"
+
+#. module: stock_inventory
+#: model:ir.actions.server,name:stock_inventory.model_stock_inventory_line_action_recompute_quantity
+msgid "Recompute On Hand Quantity"
+msgstr "Recalculer la quantité en stock"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Reference"
+msgstr "Référence"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "Refresh quantity"
+msgstr "Actualisation de la quantité"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__activity_user_id
+msgid "Responsible User"
+msgstr "Utilisateur Responsable"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erreur d'envoi SMS"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Search Inventory"
+msgstr "Rechercher un inventaire"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_search
+msgid "Search Inventory Lines"
+msgstr "Rechercher une ligne d'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__categ_id
+msgid "Select category for the current product"
+msgstr "Sélectionnez la catégorie de l'article actuel"
+
+#. module: stock_inventory
+#: model:ir.actions.server,name:stock_inventory.model_stock_inventory_line_action_reset_product_qty
+msgid "Set counted quantities to 0"
+msgstr "Mettre les quantités comptées à zéro"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Set to Draft"
+msgstr "Marquer comme brouillon"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__product_ids
+msgid "Specify Products to focus your inventory on particular Products."
+msgstr ""
+"Spécifier des articles pour limiter votre inventaire à certains articles."
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Start Inventory"
+msgstr "Démarrer l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__state
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__state
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Status"
+msgstr "État"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date d'activité est aujourd'hui\n"
+"Planifiée : activités futures"
+
+#. module: stock_inventory
+#: model:ir.model,name:stock_inventory.model_stock_move
+msgid "Stock Move"
+msgstr "Stock déplacer"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory_line__is_editable
+msgid "Technical field to restrict editing."
+msgstr "Champ technique pour restreindre l'édition."
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__theoretical_qty
+msgid "Theoretical Quantity"
+msgstr "Quantité théorique"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__total
+msgid "Total"
+msgstr "Total"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__total_valorisation
+msgid "Total Valorisation"
+msgstr "Total Valorisation"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.report_inventory_valorisation
+msgid "Total:"
+msgstr "Total:"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__product_tracking
+msgid "Tracking"
+msgstr "Suivi"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité d'exception enregistrée"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory_line__unit_price
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_line_tree
+msgid "UoM"
+msgstr "UdM"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "Validate Inventory"
+msgstr "Valider l'inventaire"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__done
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_filter
+msgid "Validated"
+msgstr "Validé"
+
+#. module: stock_inventory
+#: model_terms:ir.actions.act_window,help:stock_inventory.action_inventory_form
+msgid "Want to speed up your inventory counts? Try our Barcode app"
+msgstr ""
+"Vous désirez accélérer vos comptages d'inventaire? Essayez notre app Code "
+"Barre"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__website_message_ids
+msgid "Website Messages"
+msgstr "Messages du site web"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__website_message_ids
+msgid "Website communication history"
+msgstr "Historique de communication du site web"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_form
+msgid "e.g. Annual inventory"
+msgstr "par ex. inventaire annuel"
